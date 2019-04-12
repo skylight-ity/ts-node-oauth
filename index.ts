@@ -1,17 +1,12 @@
-import { OpskinsBase } from "./lib/OpskinsBase";
-import { Request } from "./lib/Request";
+import { OpskinsBase } from './lib/OpskinsBase'
+import * as ICase from './models/ICaseTrade'
+import * as IItem from './models/IItemTrade'
+import * as IOAuth from './models/IOAuth'
+import * as ITest from './models/ITest'
+import * as ITestTrade from './models/ITestTrade'
+import * as IUser from './models/IUser'
 
-import * as QUERY from "querystring";
-
-import * as ITest from "./models/ITest";
-import * as IUser from "./models/IUser";
-import * as IOAuth from "./models/IOAuth";
-
-import * as ITestTrade from "./models/ITestTrade";
-import * as ICase from "./models/ICaseTrade";
-import * as IItem from "./models/IItemTrade";
-
-export { OAuthClient, TScope, IOAuthClient } from "./lib/OAuthClient"
+export { IOAuthClient, OAuthClient, TScope } from './lib/OAuthClient'
 
 export class Opskins extends OpskinsBase {
   private _base: string = 'https://api.opskins.com/'

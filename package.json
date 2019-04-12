@@ -1,6 +1,6 @@
 {
   "name": "ts-node-opskins",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "A simple module to implement opskins oauth for typescript users",
   "main": "index.ts",
   "keywords": [
@@ -15,8 +15,5 @@
   "devDependencies": {
     "@types/node": "^10.12.24",
     "typescript": "^3.3.3"
-  },
-  "dependencies": {
-    "await-limit": "file:../await-limit"
   }
 }
