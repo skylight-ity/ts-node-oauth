@@ -1,0 +1,22 @@
+{
+  "name": "ts-node-opskins",
+  "version": "1.0.0",
+  "description": "A simple module to implement opskins oauth for typescript users",
+  "main": "index.ts",
+  "keywords": [
+    "opskins",
+    "opskins-api",
+    "opskins-typescript",
+    "ts opskins",
+    "opskins typescript"
+  ],
+  "author": "@skylight_ity",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.12.24",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "await-limit": "file:../await-limit"
+  }
+}
